@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Text, View, SafeAreaView, FlatList } from "react-native";
 import { COLORS, NFTData } from "../constants";
-import { NFTCard, HomeHeader, FocusedStatusBar } from "../components";
+import { ArtCard, HomeHeader, FocusedStatusBar } from "../components";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <View style={{ zIndex: 0 }}>
           <FlatList
             data={NFTData}
-            renderItem={({ item }) => <NFTCard data={item} />}
+            renderItem={({ item }) => <ArtCard data={item} />}
             keyExtractor={(item) => item.id}
             showsVerticalScrollIndicator={false}
             ListHeaderComponent={<HomeHeader />}
