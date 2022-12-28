@@ -6,7 +6,7 @@ const App = () => {
     <>
       <SectionWrapper
         title="Let's find a masterpiece"
-        description="Buy, store, collect art pieces from everyehere. Join 33+ million people using ArtMarketplace"
+        description="Buy, store, collect art pieces from everyehere. Join 33+ million people using MarketArt"
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
