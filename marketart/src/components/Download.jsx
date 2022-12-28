@@ -13,7 +13,13 @@ const Download = () => {
             Get the full source code on Github
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <a
+          href="https://github.com/Cristopxer/MarketArt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={styles.btnPrimary}>Source Code</button>
+        </a>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
