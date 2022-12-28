@@ -18,6 +18,19 @@ const App = () => {
         reverse
       />
       <Features />
+      <SectionWrapper
+        title="Deploymet"
+        description="MarketArt if built using Expo which runs natively on all users devices."
+        mockupImg={assets.feature}
+        reverse
+      />
+      <SectionWrapper
+        title="An user friendly interface"
+        description="The demo contains two different screens. The first screen shows the list of all art pieces availble and the second screen shows a detailed view of each art masterpiece."
+        mockupImg={assets.mockup}
+        banner="banner-02"
+      />
+      <Download />
     </>
   );
 };
