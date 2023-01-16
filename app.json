@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "marketart",
+    "name": "MarketArt",
     "slug": "marketart",
+    "description": "Buy, store, collect art pieces from everyehere. Join the people using MarketArt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
